@@ -1,103 +1,107 @@
- body {
-    font-family: 'Crimson Text', serif;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhw4N4w3NBnzFIvD5DLfmzUcbH6M3dd3_MSw&s);
-    background-color: #f4efe3;
-    color: #3e2e1f;
-    text-align: center;
-    line-height: 1.8;
-    min-height: 100vh;
-    padding: 30px;
-  }
-  
-  
-  .overlay {
-    background: rgba(255, 248, 234, 0.9);
-    border: 2px solid #d2b48c;
-    border-radius: 10px;
-    padding: 40px 25px;
-    max-width: 850px;
-    margin: 40px auto;
-    box-shadow: 0 0 20px rgba(139, 69, 19, 0.2);
-  }
- 
-  #title {
-    font-family: 'Cinzel', serif;
-    font-size: 2.8em;
-    color: #4b2e05;
-    margin-bottom: 10px;
-    text-shadow: 1px 1px 0 #d2b48c;
-  }
-  
-  .subtitle {
-    font-size: 1.2em;
-    color: #5c4633;
-    margin-bottom: 25px;
-    font-style: italic;
-  }
-  
+body {
+  font-family: 'Crimson Text', serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhw4N4w3NBnzFIvD5DLfmzUcbH6M3dd3_MSw&s);
+  background-color: #f4efe3;
+  color: #3e2e1f;
+  text-align: center;
+  line-height: 1.8;
+  min-height: 100vh;
+  padding: 30px;
+}
 
-  #img-div {
-    margin: 25px auto;
-    max-width: 600px;
-  }
-  
-  #image {
-    width: 100%;
-    border: 5px solid #d2b48c;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
-    filter: sepia(60%) contrast(95%);
-    transition: all 0.4s ease;
-  }
-  
-  #image:hover {
-    filter: sepia(30%) contrast(110%);
-    transform: scale(1.02);
-  }
-  
-  #img-caption {
-    font-size: 0.95em;
-    font-style: italic;
-    margin-top: 10px;
-    color: #5c4633;
-  }
-  
-  
-  #tribute-info {
-    text-align: left;
-    background: rgba(255, 255, 255, 0.4);
-    padding: 20px;
-    border-radius: 8px;
-    border-left: 5px solid #b38b59;
-    margin-top: 30px;
-  }
-  
-  #tribute-info h2 {
-    font-family: 'Cinzel', serif;
-    color: #4b2e05;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  
-  #tribute-info p {
-    margin-bottom: 15px;
-    font-size: 1.05em;
-  }
-  
-  .learn-more {
-    margin-top: 30px;
-    font-size: 1.1em;
-  }
-  
-  .learn-more a {
-    color: #7a4b13;
-    text-decoration: none;
-    font-weight: 600;
-    border-bottom: 1px solid #b38b59;
-    transition: color 0.3s, border-color 0.3s;
-  }
-  
-  .learn-more a:hover {
-    color: #b38b59;
-    border-color: #7a4b13;
-  } 
+
+.overlay {
+  background: rgba(255, 248, 234, 0.9);
+  border: 2px solid #d2b48c;
+  border-radius: 10px;
+  padding: 40px 25px;
+  max-width: 850px;
+  margin: 40px auto;
+  box-shadow: 0 0 20px rgba(139, 69, 19, 0.2);
+}
+
+#title {
+  font-family: 'Cinzel', serif;
+  font-size: 2.8em;
+  color: #4b2e05;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 0 #d2b48c;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #5c4633;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+
+#img-div {
+  text-align: center;
+  align-content: center;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #d2b48c;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+  filter: sepia(60%) contrast(95%);
+  transition: all 0.4s ease;
+}
+
+#image:hover {
+  filter: sepia(30%) contrast(110%);
+  transform: scale(1.02);
+}
+
+#img-caption {
+  font-size: 0.95em;
+  font-style: italic;
+  margin-top: 10px;
+  color: #5c4633;
+}
+
+
+#tribute-info {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #b38b59;
+  margin-top: 30px;
+}
+
+#tribute-info h2 {
+  font-family: 'Cinzel', serif;
+  color: #4b2e05;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#tribute-info p {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+}
+
+.learn-more {
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+
+.learn-more a {
+  color: #7a4b13;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #b38b59;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.learn-more a:hover {
+  color: #b38b59;
+  border-color: #7a4b13;
+} 
