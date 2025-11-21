@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ff4d88;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+#header-img{
+    height: 50px;
+}
+
+#nav-bar{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+#hero {
+    margin-top: 100px;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #ff85a2, #ffd6e0);
+    color: white;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* FLEXBOX EXAMPLE */
+.color-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.shade {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+/* FORM */
+form {
+    margin-top: 20px;
+}
+
+#email {
+    padding: 10px;
+    width: 250px;
+    max-width: 80%;
+    border: 2px solid #ff4d88;
+    border-radius: 5px;
+}
+
+#submit {
+    padding: 10px 20px;
+    background: #ff4d88;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: #ff1f66;
+}
+
+
+@media (max-width: 600px) {
+    #nav-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .color-flex {
+        flex-direction: column;
+    }
+}
+
+.pricing-flex {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.price-card {
+    background: #ffe1ec;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.price-card h3 {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d0006f;
+}
+

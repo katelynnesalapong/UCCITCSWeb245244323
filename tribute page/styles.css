@@ -38,7 +38,7 @@ body {
 
 #img-div {
   text-align: center;
-  align-content: center;
+  justify-items: center;
 }
 
 #image {
